@@ -11,7 +11,7 @@ The repository is organized as follows:
 ├── requirements.txt           (Python dependencies)
 ├── config.py                  (Centralized API configuration)
 ├── .env.example               (Template for environment variables)
-├── .env                       (Your actual API keys - DO NOT COMMIT)
+├── .env                       (Your actual API keys)
 ├── .gitignore                 (Excludes sensitive files from version control)
 └── src/
     ├── func.py

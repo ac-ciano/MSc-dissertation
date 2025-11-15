@@ -57,12 +57,6 @@ models/
 results/
 wandb/
 
-# Data files (uncomment if you want to exclude large datasets)
-# data/
-# *.csv
-# *.parquet
-# *.feather
-
 # Logs
 *.log
 logs/

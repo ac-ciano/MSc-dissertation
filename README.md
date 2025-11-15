@@ -202,12 +202,6 @@ If you use this code or methodology in your research, please cite:
 }
 ```
 
-## 🤝 Contributing
-
-This is an academic research project. For questions or suggestions:
-- Open an issue on GitHub
-- Contact the repository maintainer
-
 ## ⚠️ Ethical Considerations
 
 This research deals with sensitive mental health data. Please ensure:
@@ -215,17 +209,3 @@ This research deals with sensitive mental health data. Please ensure:
 - Ethical review board approval for any adaptations
 - Responsible use of suicide risk prediction models
 - Privacy protection for individuals
-
-## 📄 License
-
-[Specify your license here - e.g., MIT, GPL, etc.]
-
-## 🙏 Acknowledgments
-
-- Data providers: [Specify if allowed by DUA]
-- Funding sources: [If applicable]
-- Computational resources: [If applicable]
-
----
-
-**⚠️ Disclaimer**: This project is for research purposes only. The models and predictions should not be used as substitutes for professional mental health assessment or intervention.
