@@ -1,8 +1,5 @@
 """
 Configuration module for API keys and environment variables.
-
-This module loads environment variables from a .env file and provides
-a centralized configuration interface for the entire project.
 """
 
 import os

@@ -196,9 +196,9 @@ If you use this code or methodology in your research, please cite:
 ```bibtex
 @mastersthesis{ciano2025suicide,
   title={Suicide Risk Prediction in Social Media using Machine Learning and Large Language Models},
-  author={[Your Name]},
+  author={[Alessandro Costanzo Ciano]},
   year={2025},
-  school={[Your University]}
+  school={[The University of Edinburgh]}
 }
 ```
 

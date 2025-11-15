@@ -11,7 +11,7 @@ The repository is organized as follows:
 ├── requirements.txt           (Python dependencies)
 ├── config.py                  (Centralized API configuration)
 ├── .env.example               (Template for environment variables)
-├── .env                       (Your actual API keys)
+├── .env                       (Your actual API keys - DO NOT COMMIT)
 ├── .gitignore                 (Excludes sensitive files from version control)
 └── src/
     ├── func.py
@@ -77,8 +77,6 @@ Prerequisites: Ensure you have Python 3.8+ and the necessary libraries installed
       XAI_API_KEY=your_xai_api_key_here
       GOOGLE_API_KEY=your_google_api_key_here
       DEEPSEEK_API_KEY=your_deepseek_api_key_here
-   
-   IMPORTANT: Never commit the .env file to version control. It is already included in .gitignore.
    
    The config.py module handles loading these environment variables automatically.
 
