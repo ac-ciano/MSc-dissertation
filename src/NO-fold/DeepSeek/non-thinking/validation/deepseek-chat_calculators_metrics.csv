@@ -1,0 +1,28 @@
+timestamp,model_name,total_posts,api_calls_attempted,api_calls_succeeded,api_errors_count,labels_not_found_in_response,valid_predictions_for_metrics,accuracy,f1_macro,f1_weighted,precision_weighted,recall_weighted
+2025-06-01 17:16:30,deepseek-chat,500,500,500,0,0,500,0.668,0.6233653986713291,0.6445928544941081,0.7281455417832867,0.668
+
+--- Per-Class Metrics ---
+class,f1_score,precision,recall,support
+indicator,0.47058823529411764,0.975609756097561,0.31007751937984496,129
+ideation,0.7130044843049327,0.6463414634146342,0.795,200
+behavior,0.7301587301587301,0.6284153005464481,0.8712121212121212,132
+attempt,0.5797101449275363,0.6666666666666666,0.5128205128205128,39
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+   indicator       0.98      0.31      0.47       129
+    ideation       0.65      0.80      0.71       200
+    behavior       0.63      0.87      0.73       132
+     attempt       0.67      0.51      0.58        39
+
+    accuracy                           0.67       500
+   macro avg       0.73      0.62      0.62       500
+weighted avg       0.73      0.67      0.64       500
+
+
+--- Confusion Matrix ---
+[[ 40,  68,  14,   7],
+ [  1, 159,  38,   2],
+ [  0,  16, 115,   1],
+ [  0,   3,  16,  20]]

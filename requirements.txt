@@ -7,3 +7,5 @@ datasets
 scikit-learn
 openai
 nltk
+python-dotenv
+google-generativeai

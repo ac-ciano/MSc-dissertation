@@ -1,0 +1,28 @@
+timestamp,model_name,dataset_path,total_posts,api_calls_attempted,api_calls_succeeded,api_errors_count,labels_not_found_in_response,valid_predictions_for_metrics,accuracy,f1_macro,f1_weighted,precision_weighted,recall_weighted
+2025-05-27 19:14:38,models/gemini-2.0-flash,../data/test_set.csv,100,100,100,0,0,100,0.62,0.5550976800976801,0.5966691086691087,0.6683513708513709,0.62
+
+--- Per-Class Metrics ---
+class,f1_score,precision,recall,support
+indicator,0.45714285714285713,0.8888888888888888,0.3076923076923077,26
+ideation,0.6410256410256411,0.625,0.6578947368421053,38
+behavior,0.7222222222222222,0.5909090909090909,0.9285714285714286,28
+attempt,0.4,0.42857142857142855,0.375,8
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+   indicator       0.89      0.31      0.46        26
+    ideation       0.62      0.66      0.64        38
+    behavior       0.59      0.93      0.72        28
+     attempt       0.43      0.38      0.40         8
+
+    accuracy                           0.62       100
+   macro avg       0.63      0.57      0.56       100
+weighted avg       0.67      0.62      0.60       100
+
+
+--- Confusion Matrix ---
+[[ 8, 14,  2,  2],
+ [ 1, 25, 11,  1],
+ [ 0,  1, 26,  1],
+ [ 0,  0,  5,  3]]
